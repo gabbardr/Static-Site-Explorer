@@ -58,7 +58,7 @@ const IndexPage: React.FC<PageProps> = () => {
                 <span style={quoteStyle}>-"A man whos committed to their work can achieve great things" -Paul B</span>
             </p>
             <div>
-        <Link to= "http://localhost:8000/" style={linkStyle}>Home</Link>
+        <Link to= "https://super-cascaron-569107.netlify.app/" style={linkStyle}>Home</Link>
       </div>
        </main>
     )
