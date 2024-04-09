@@ -1,0 +1,31 @@
+{
+  "name": "static-site-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "static-site-explorer",
+  "author": "Randi Gabbard",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gatsby": "^5.13.3",
+    "gatsby-plugin-netlify-cms": "^7.12.1",
+    "netlify-cms-app": "^2.15.72",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3"
+  }
+}
